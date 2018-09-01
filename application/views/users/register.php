@@ -4,7 +4,7 @@
 
 <div class="card flex-md-row mb-4 shadow-sm h-md-250">
             <div class="card-body d-flex flex-column align-items-start">
-              <strong class="d-inline-block mb-2 text-primary">World</strong>
+              <strong class="d-inline-block mb-2 text-primary"><i class="fas fa-user-lock"></i></strong>
               <h3 class="mb-0">
                 <a class="text-dark" href="#"><h2><?= $title ?></h2></a>
               </h3>
@@ -32,7 +32,7 @@
 <?php echo form_open('users/register'); ?>
 	<div class="row">
 		<div class="col-md-4 col-md-offset-4">
-			<h1 class="text-center"><?= $title; ?></h1>
+			<h1 class="text-center"><i class="fas fa-user-lock"></i> </br> <?= $title; ?></h1>
 			<div class="form-group">
 				<label>Name</label>
 				<input type="text" class="form-control" name="name" placeholder="Name">
