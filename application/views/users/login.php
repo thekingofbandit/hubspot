@@ -4,7 +4,7 @@
 
 <div class="card flex-md-row mb-4 shadow-sm h-md-250">
             <div class="card-body d-flex flex-column align-items-start">
-              <strong class="d-inline-block mb-2 text-primary">World</strong>
+              <strong class="d-inline-block mb-2 text-primary"><i class="fas fa-door-open"></i></strong>
               <h3 class="mb-0">
                 <a class="text-dark" href="#"><h2><?= $title ?></h2></a>
               </h3>
@@ -13,8 +13,8 @@
 						echo " " . date("l");
 				?>
               </div>
-              <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-              <a href="#">Continue reading</a>
+              <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>Don't Have an Account?
+              <a href="<?php echo base_url(); ?>users/register">Go to Register</a>
             </div>
             <img class="card-img-right flex-auto d-none d-lg-block" src="<?php echo base_url(); ?>assets/images/login.svg" alt="Thumbnail [200x250]" style="width: 200px; height: 250px; padding-right: 20px" data-holder-rendered="true">
           </div>
@@ -29,7 +29,7 @@
 
 	<div class="row">
 		<div class="col-md-4 col-md-offset-4">
-			<h1 class="text-center"><?php echo $title; ?></h1>
+			<h1 class="text-center"><i class="fas fa-door-open"></i> <?php echo $title; ?></h1>
 			<div class="form-group">
 				<input type="text" name="username" class="form-control" placeholder="Enter Username" required autofocus>
 			</div>

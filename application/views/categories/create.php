@@ -1,4 +1,4 @@
-<h2><?= $title ;?></h2>
+<h2><i class="fas fa-pencil-alt"></i>  <?= $title ;?></h2>
 
 <?php echo validation_errors(); ?>
 
