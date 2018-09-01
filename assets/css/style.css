@@ -204,3 +204,18 @@ a.nav-link {
 .navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .nav-link.active {
     color: #ff8431;
 }
+
+.card-header {
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgb(255, 132, 49);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+p.card-text {
+    color: #33475b;
+}
+
+h5.card-title {
+    color: #33475b;
+}
