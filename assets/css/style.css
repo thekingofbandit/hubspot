@@ -13,20 +13,21 @@
 	margin:30px 0;
 }
 
-.pagination-links strong{
-	padding: 8px 13px;
-	margin:5px;
-	background: #f4f4f4;
-	border: 1px #ccc solid;
-	border-radius: 3px;
+.pagination-links strong {
+    padding: 8px 13px;
+    margin: 5px;
+    color: #fff;
+    background: #ff8431;
+    border: 1px #ff8431 solid;
+    border-radius: 3px;
 }
 
-a.pagination-link{
-	padding: 8px 13px;
-	margin:5px;
-	background: #f4f4f4;
-	border: 1px #ccc solid;
-	border-radius: 3px;
+a.pagination-link {
+    padding: 8px 13px;
+    margin: 5px;
+    background: #f4f4f4;
+    border: 1px #f4f4f4 solid;
+    border-radius: 3px;
 }
 
 .cat-delete{
