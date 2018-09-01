@@ -14,7 +14,7 @@
 				?>
               </div>
               <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-              <a href="#">Continue reading</a>
+              <a href="<?php echo base_url(); ?>categories">Go to Categories</a>
             </div>
            <img class="card-img-right flex-auto d-none d-lg-block" src="<?php echo base_url(); ?>assets/images/blog.svg" alt="Thumbnail [200x250]" style="width: 200px; height: 250px; padding-right: 20px" data-holder-rendered="true">
           </div>
