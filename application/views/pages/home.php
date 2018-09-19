@@ -1,7 +1,4 @@
-<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-
-<div class="container-fluid">
-
+<div class="pricing-header pt-md-5 pb-md-4 mx-auto text-center">
 <div class="card flex-md-row mb-4 shadow-sm h-md-250">
             <div class="card-body d-flex flex-column align-items-start">
               <strong class="d-inline-block mb-2 text-primary"><i class="fas fa-home"></i></strong>
@@ -13,23 +10,15 @@
 						echo " " . date("l");
 				?>
               </div>
-              <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+              <p class="card-text text-left mb-auto"><script type="text/javascript" src="https://www.brainyquote.com/link/quotebr.js"></script></p>
               <a href="<?php echo base_url(); ?>about">Continue to About</a>
             </div>
             <img class="card-img-right flex-auto d-none d-lg-block" src="<?php echo base_url(); ?>assets/images/home.svg" alt="Thumbnail [200x250]" style="width: 200px; height: 250px; padding-right: 20px" data-holder-rendered="true">
-          </div>
-
-       </div>
-
-   
-
+          </div> 
     </div>
-
-
-
 <div class="row">
-  <div class="col-sm-6 flex-auto ">
-    <div class="card">
+  <div class="col-sm-6">
+    <div class="card text-white bg-primary mb-3">
       <div class="card-body">
         <h5 class="card-title">Special title treatment</h5>
         <p class="card-text">Detecting when the canvas size changes can not be done directly from the CANVAS element. Chart.js uses its parent container to update the canvas render and display sizes. However, this method requires the container to be relatively positioned and dedicated to the chart canvas only. Responsiveness can then be achieved by setting relative values for the container size CSS media queries allow changing styles when printing a page. The CSS applied from these media queries may cause charts to need to resize. </p>
@@ -37,8 +26,8 @@
       </div>
     </div>
   </div>
-  <div class="col-sm-6 flex-auto ">
-    <div class="card">
+  <div class="col-sm-6">
+    <div class="card text-white bg-primary mb-3">
       <div class="card-body">
         <h5 class="card-title">Special title treatment</h5>
         <p class="card-text">Detecting when the canvas size changes can not be done directly from the CANVAS element. Chart.js uses its parent container to update the canvas render and display sizes. However, this method requires the container to be relatively positioned and dedicated to the chart canvas only. Responsiveness can then be achieved by setting relative values for the container size CSS media queries allow changing styles when printing a page. The CSS applied from these media queries may cause charts to need to resize. </p>

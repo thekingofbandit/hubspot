@@ -7,5 +7,5 @@
 		<label>Name</label>
 		<input type="text" class="form-control" name="name" placeholder="Enter name">
 	</div>
-	<button type="submit" class="btn btn-default">Submit</button>
+	<button type="submit" class="btn btn-success">Submit</button>
 </form>

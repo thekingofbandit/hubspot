@@ -34,14 +34,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </style>
 </head>
 <body>
+<div class="container">
+	
 
-	<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-
-   
-
-    </div>
-
-    <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto">
+    <div class="pricing-header  pt-md-5 pb-md-4 mx-auto">
 
 	<div id="container">
 		<div class="row">
@@ -63,7 +59,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		</div>
 
 	</div>	
-	
+</div>	
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
 <script src="<?php echo base_url(); ?>assets/js/popper.min.js"></script>

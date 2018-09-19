@@ -1,6 +1,6 @@
-<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+<div class="pricing-header pt-md-5 pb-md-4 mx-auto text-center">
 
-<div class="container-fluid">
+
 
 <div class="card flex-md-row mb-4 shadow-sm h-md-250">
             <div class="card-body d-flex flex-column align-items-start">
@@ -13,13 +13,13 @@
             echo " " . date("l");
         ?>
               </div>
-              <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+              <p class="card-text text-left mb-auto"><script type="text/javascript" src="https://www.brainyquote.com/link/quotebr.js"></script></p>
               <a href="<?php echo base_url(); ?>posts">Continue reading</a>
             </div>
             <img class="card-img-right flex-auto d-none d-lg-block" src="<?php echo base_url(); ?>assets/images/about.svg" alt="Thumbnail [200x250]" style="width: 200px; height: 250px; padding-right: 20px" data-holder-rendered="true">
           </div>
 
-       </div>
+     
 
    
 
@@ -29,7 +29,7 @@
 <div class="row">
   <div class="col-sm-4">
 
-<div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+<div class="card text-white bg-primary mb-3">
   <div class="card-header">Bar charts</div>
   <div class="card-body">
     <h5 class="card-title">Primary card title</h5>
@@ -44,7 +44,7 @@ Stacked groups</p>
 </div>
 
 <div class="col-sm-4">
-<div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+<div class="card text-white bg-primary mb-3">
   <div class="card-header">Line charts</div>
   <div class="card-body">
     <h5 class="card-title">Basic</h5>
@@ -60,7 +60,7 @@ Point sizes
 </div>
 
 <div class="col-sm-4">
-<div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+<div class="card text-white bg-primary mb-3">
   <div class="card-header">Area charts</div>
   <div class="card-body">
     <h5 class="card-title"></h5>

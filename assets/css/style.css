@@ -1,5 +1,5 @@
 .post-date{
-	background:#f4f4f4;
+	background:transparent;
 	padding:4px;
 	margin:3px 0;
 	display:block;
@@ -220,3 +220,15 @@ p.card-text {
 h5.card-title {
     color: #33475b;
 }
+
+form {
+    display: initial;
+}
+
+footer#footer {
+    background: #ffffff;
+}
+a:hover, a:focus, a:active, a:visited, a:link{
+    text-decoration: none;
+}
+

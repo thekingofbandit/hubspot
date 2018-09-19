@@ -1,6 +1,6 @@
-<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+<div class="pricing-header pt-md-5 pb-md-4 mx-auto text-center">
 
-<div class="container-fluid">
+
 
 <div class="card flex-md-row mb-4 shadow-sm h-md-250">
             <div class="card-body d-flex flex-column align-items-start">
@@ -13,13 +13,13 @@
 						echo " " . date("l");
 				?>
               </div>
-              <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>Already have an account? 
+              <p class="card-text text-left mb-auto"><script type="text/javascript" src="https://www.brainyquote.com/link/quotebr.js"></script></p>Already have an account? 
               <a href="<?php echo base_url(); ?>users/login">Sign In</a>
             </div>
             <img class="card-img-right flex-auto d-none d-lg-block" src="<?php echo base_url(); ?>assets/images/register.svg" alt="Thumbnail [200x250]" style="width: 200px; height: 250px; padding-right: 20px" data-holder-rendered="true">
           </div>
 
-       </div>
+
 
    
 

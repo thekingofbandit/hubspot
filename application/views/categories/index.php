@@ -1,6 +1,6 @@
-<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+<div class="pricing-header pt-md-5 pb-md-4 mx-auto text-center">
 
-<div class="container-fluid">
+
 
 <div class="card flex-md-row mb-4 shadow-sm h-md-250">
             <div class="card-body d-flex flex-column align-items-start">
@@ -13,13 +13,13 @@
 						echo " " . date("l");
 				?>
               </div>
-              <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+              <p class="card-text text-left mb-auto"><script type="text/javascript" src="https://www.brainyquote.com/link/quotebr.js"></script></p>
               <a href="./posts">Continue reading</a>
             </div>
            <img class="card-img-right flex-auto d-none d-lg-block" src="<?php echo base_url(); ?>assets/images/category.svg" alt="Thumbnail [200x250]" style="width: 200px; height: 250px; padding-right: 20px" data-holder-rendered="true">
           </div>
 
-       </div>
+
 
    
 
@@ -27,7 +27,7 @@
 
 <ul class="list-group">
 <?php foreach($categories as $category) : ?>
-	<li class="list-group-item list-group-item-action"  ><a href="<?php echo site_url('/categories/posts/'.$category['id']); ?>"><?php echo $category['name']; ?></a>
+	<li class="list-group-item list-group-item-action"  ><a class="btn btn-primary" href="<?php echo site_url('/categories/posts/'.$category['id']); ?>"><?php echo $category['name']; ?></a>
 		<?php if($this->session->userdata('user_id') == $category['user_id']): ?>
 			<form class="cat-delete" action="categories/delete/<?php echo $category['id']; ?>" method="POST">
 				<input type="submit" class="btn-link text-danger" value="[X]">

@@ -20,7 +20,7 @@
     <?php endforeach; ?>
   </select>
   </div>
-  <button type="submit" class="btn btn-default">Submit</button>
+  <button type="submit" class="btn btn-success">Save Post</button>
 </form>
 <script type="text/javascript">
       CKEDITOR.replace( 'editor1' );

@@ -27,7 +27,7 @@
     <span class="btn btn-default btn-file"><span class="fileinput-new">Select image <small>*jpg 400px x 400px</small></span><span class="fileinput-exists">Change</span><input type="file" name="userfile" size="20" ></span>
     <a href="#" class="btn btn-default fileinput-exists" data-dismiss="fileinput">Remove</a>
   </div>
-  <button type="submit" class="btn btn-default">Submit</button>
+  <button type="submit" class="btn btn-success">Create a Post</button>
 </div>
   
 </form>

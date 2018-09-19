@@ -31,20 +31,19 @@
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/fontawesome/css/regular.css">
     <script src="<?php echo base_url(); ?>assets/fontawesome/js/all.js"></script>
        
-    <script src="https://code.jquery.com/jquery.js"></script>
-    <script src="<?php echo base_url(); ?>assets/js/app.js"></script>
-    <script src="<?php echo base_url(); ?>assets/js/holder.js"></script> 
-    <script src="<?php echo base_url(); ?>assets/ckeditor/ckeditor.js"></script>
+    
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
+     <![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="HandheldFriendly" content="true">
 </head>
 
-<body class="bg-light">
+<body class="bg-light">    
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <a class="navbar-brand" href="<?php echo base_url(); ?>"><img class="card-img-right flex-auto d-none d-lg-block" src="<?php echo base_url(); ?>assets/images/logo.svg" alt="Thumbnail [200x250]" style="width: 200px; height: 20px; padding-right: 20px" data-holder-rendered="true"></a>
@@ -54,7 +53,7 @@
 
         <div class="collapse navbar-collapse" id="navbarColor01">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="<?php echo base_url(); ?>"><i class="fas fa-home"></i> Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
@@ -86,7 +85,7 @@
 
 
 
-    <div class="container">
+    <div class="container-fluid container">
         <!-- Flash messages -->
         <?php if($this->session->flashdata('user_registered')): ?>
         <?php echo '<p class="alert alert-success">'.$this->session->flashdata('user_registered').'</p>'; ?>
